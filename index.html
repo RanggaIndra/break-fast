@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body style="background-color: #FFBD59; font-family: 'Montserrat', sans-serif;
+">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white mb-md-5 sticky-top">
+        <div class="container-fluid px-md-4">
+            <div class="me-2">
+                <img src="assets/BREAK_FAST-removebg.png" alt="Bootstrap" width="60" height="60">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse px-2 px-md-0" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Heroes -->
+    <div class="container col-xxl-8 px-4 py-5 my-md-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <img src="assets/heores-photo.webp" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">TEMUKAN SARAPAN FAVORIT ANDA DISINI!</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nisi reiciendis ea ratione
+                    quam! Molestiae est iste reiciendis dolorem, laborum velit ducimus esse voluptate iusto aut odit
+                    minus obcaecati aspernatur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Heroes -->
+
+    <!-- Features -->
+    <div class="container px-4 py-4 py-md-5 my-md-5" id="featured-3">
+        <h2 class="pb-2 border-bottom border-dark">Kenapa sarapan dengan BREAK'FAST?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-award-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                    </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Terpercaya</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-backpack-fill" viewBox="0 0 16 16">
+                        <path d="M5 13v-3h4v.5a.5.5 0 0 0 1 0V10h1v3z" />
+                        <path
+                            d="M6 2v.341C3.67 3.165 2 5.388 2 8v5.5A2.5 2.5 0 0 0 4.5 16h7a2.5 2.5 0 0 0 2.5-2.5V8a6.002 6.002 0 0 0-4-5.659V2a2 2 0 1 0-4 0m2-1a1 1 0 0 1 1 1v.083a6.04 6.04 0 0 0-2 0V2a1 1 0 0 1 1-1m0 3a4 4 0 0 1 3.96 3.43.5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14A4 4 0 0 1 8 4M4.5 9h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5" />
+                    </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Mudah Dibawa</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-wallet-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2z" />
+                        <path
+                            d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5z" />
+                    </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Murah</h3>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Features -->
+
+    <!-- Product -->
+    <div class="container px-md-0 d-md-flex flex-md-row py-md-5 my-md-5">
+        <div class="card col-md-4 mx-md-2 mb-3 mb-md-0">
+            <img src="assets/product-1.jpg" class="card-img-top" alt="product-1" height="300">
+            <div class="card-body">
+                <h5 class="card-title">Cereal</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card col-md-4 mx-md-2 mb-3 mb-md-0">
+            <img src="assets/product-2.jpg" class="card-img-top" alt="product-2" height="300">
+            <div class="card-body">
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card col-md-4 mx-md-2 mb-3 mb-md-0">
+            <img src="assets/product-3.webp" class="card-img-top" alt="product-3" height="300">
+            <div class="card-body">
+                <h5 class="card-title">Coffe & Tea</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <!-- End of Product -->
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Product</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 BREAKFAST, Inc</p>
+        </footer>
+    </div>
+    <!-- End of Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
